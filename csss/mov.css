@@ -1,0 +1,126 @@
+.vis{width: auto; background-color: #f9f9f9; display: flex; justify-content:flex-end; padding: 0 1%; align-items: center; padding: 1%; box-shadow: 0px 0px 10px 1px gray; top:-2.5%; position: sticky; top: -2%; }
+
+body{margin: 0px; padding: 0; background-color:#e0e4e4; width: 100%;}
+		
+@font-face{
+   font-family: changa;
+   src: url("../fonts/Changa-VariableFont_wght.ttf") format("truetype");
+}
+@font-face{font-family: arb;
+   src: url("../fonts/Cairo-Regular.ttf") format("truetype") ; 
+
+}
+
+button{ display: flex; top: 50px; justify-content: center; align-items: center;  outline-style: none; height: 75%; width: 10%; background-color: #bfbfbf; border: none;  margin-left: 0;; border-radius: 5px;margin: 1%;}
+
+.span{   width: 40%;  height: 40px; display: flex; align-items: center; justify-content:space-between; background-color: white; border-radius: 3px; border: 1px solid darkgray; box-shadow: 0px 0px 10px 1px lightgray; margin: 0 0 0 15%;  } 
+
+.span input{height: 25px; width: 85%; border: none; margin:0 0 0 1%; border-radius: 5px; display: flex; justify-content: center; border: 1px solid #bfbfbf; margin-right:0; position:static-absolute; }    
+.fix{position: sticky;width: 100%; top: 80px;}
+
+button i{width: 1vw; display: inline-block;}
+
+::-webkit-scrollbar {
+    width: 10px;}
+
+    ::-webkit-scrollbar-track {
+        background:none;}    
+  
+
+a{text-decoration: none;}
+
+
+
+
+.vis a{font-weight: bold; text-decoration: none; color:white;  }
+ 
+ .one{background-color: #10bf46; order: 2; justify-content: center;align-items: center; display:flex; padding: 10px; border-radius: 5px; box-shadow: 0px 0px 10px 1px gray; }
+ 
+ .two{background-color: #00a1cb; display: flex; margin: 0 5vw 0 0; padding: 10px; justify-content: center;border-radius: 5px;  box-shadow: 0px 0px 10px 1px gray;  text-shadow:  0px 0px 10px 0px black;}
+
+ .two i{margin-right: 20px;}
+
+ .pan{display: flex; font-size:100%; position: relative; white-space: nowrap;   }
+
+ h2{font-weight: bolder;}
+
+ header #log{display: inline-block; width: 12%; margin:  0 2vw; }
+
+ header img{width:100%;}
+
+ ::-webkit-input-placeholder { text-align:right;  font-weight: bold; font-size: 100%;  }  
+
+
+ #main{display: grid; height: 2000px; column-gap: 20px; grid-template-columns: 25%  minmax(0,65%) 10%; box-sizing: border-box; margin: 20px 0; width: 70%; margin: 20px auto;}
+
+ .lefts a{  text-decoration: none; height: 4vh; font-size: 1vw; white-space: nowrap; padding: 3px 15px;  width: 6vw; background-color:#ffffff;  border-radius: 5px; color:#ff5443; text-align: center; vertical-align:middle; font-weight: bolder;
+    font-family: arb;
+    }
+    
+    .lefts .warn{grid-column: 1/3; text-align: center; grid-row:1/2; background-color: white; font-family: arb; font-weight: bolder; border-radius: 5px;} 
+    .lefts h2{border-bottom: 1px solid rgb(196, 196, 196); vertical-align: middle; box-sizing: border-box; margin:0 0 5px 0;}
+    .lefts p{color: tomato;}
+    
+    .rights a{text-align: center; font-family: arb; color: #0066cc; font-size: 1vw; white-space: nowrap; border-bottom: 1px solid rgb(135, 135, 135);  padding: 10px 0;display: flex;
+    flex-direction: row-reverse; justify-content: space-around; align-items: center; text-decoration: none;}
+    
+    .rights a:hover{color: tomato; border-bottom: 1px solid tomato;}
+
+    .lefts{ row-gap: 20px; column-gap: 5px; display:grid;  grid-template-columns:repeat(2,50%); justify-items: center; height: fit-content;  }
+ 
+ .rights{background-color: #f9f9f9; height:fit-content; border-radius: 5px; width: 120%;}
+
+ #rf1{width: min-content; text-align: center;  width: 35%;  padding-left: 10px; }
+ #moimg{width: 100%;height: 290px; }
+ #rf1 a{color: white; font-family:sans-serif; white-space: nowrap; font-size: 1vw; margin: 20px 0; border-radius: 5px; background-color: #10bf46; padding: 8px 0; display: block;}
+ 
+ .info{display: flex; flex-direction: row-reverse; }
+
+ table{font-size: 1vw; width: 100%; background-color: #f9f9f9; border-collapse: collapse; column-gap: 20px; direction: rtl; display: table;}
+ 
+ table td {
+     
+    border: #e0e4e4 2px solid ;
+    width: fit-content ; padding: 8px 5px ;
+    white-space: nowrap;
+ color: #000000;}
+    
+ 
+ .tb{width:65%;  margin: 0 5px; }
+ th{padding: 5px; font-size: 3vh; text-transform: capitalize; font-weight: lighter;background-color: rgb(243, 243, 243);}
+
+ 
+ .mids{ height: 1200px;}
+
+ .short{width:13%; }
+ .info{background-color:#e0e4e4;}
+
+ .thum{ text-align: center;background-color: #f9f9f9; border: rgb(197 197 197 / 1) 1px solid; margin: 20px 0 0 0; font-family: arb; border-radius: 3px;}
+ .thum i{margin: 0 20% ; background-color: #f9f9f9; padding: 10px; border-radius: 100%; border: 1px solid black; color:#0066cc ;}
+ .thum h2{text-align: right; padding: 10px; margin: 0; border-bottom:1px solid gray; background-color: rgb(243, 243, 243);}
+ .thum div{padding: 10px;}
+
+
+ .stor{text-align: right; background-color:#f9f9f9 ;  margin: 20px 0; border: 1px solid rgb(197 197 197 / 1) ; font-family: arb; border-radius: 3px;}
+ .stor h2{border-bottom: 1px solid gray; margin: 0; padding: 10px; background-color: rgb(243, 243, 243);}
+ .stor div{padding: 10px; text-align: right;}
+
+
+
+ .trl{background-color: f9f9f9;}
+ .trl h2{background-color:rgb(243, 243, 243); margin: 0; text-align: right; padding: 10px; font-family: arb;border-bottom: 1px solid gray;}
+ .trl iframe {margin: 1px 22%; width: 60%; height: 15vw; }
+  
+ .mids .okru{width:100%; height: 25vw;  }
+ #vidd {background-color: #f9f9f9; text-align: center; font-family: arb; margin: 40px 0; width: 100%; border: 1px solid rgb(209, 209, 209); border-radius: 5px; padding: 0 0 10px 0;} 
+ #vidd h2{margin:  0; padding: 10px 0; background-color: rgb(243, 243, 243); font-size: 2vh; border-radius: 5px; }
+
+ #sec1{display: flex; text-align: center; overflow:scroll; width: 100%; }
+ #sec1 img{width: 150px; margin: 0 20px;}
+.lastd{font-family: arb; text-align: center; background-color: #f9f9f9;}
+.lastd h2{border-bottom: 1px solid gray; background-color:rgb(241, 241, 241) ;}
+
+
+    
+
+#moimg{object-fit: cover;}
